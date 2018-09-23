@@ -1,0 +1,110 @@
+@media screen and (max-width: 1800px) {
+	.main-nav {
+		flex-basis: 50%;
+	}
+}
+
+@media screen and (max-width: 1024px),  {
+	.main-nav {
+		flex-basis: 60%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.main-nav {
+		flex-basis: 70%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.main-nav {
+		flex-basis: 90%;
+	}
+}
+
+@media Screen and (max-width: 600px) {
+	.header {
+		max-height: 410px;
+	}
+
+	.wrapper1 {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-nav {
+		flex-basis: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.car {
+		width: 400px;
+	}
+
+	.offer {
+		min-height: 700px;
+	}
+
+	.wrapper {
+		padding-left: 5px;
+		padding-right: 5px;
+		flex-direction: column;
+	}
+
+	.txt {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.tariffs {
+		padding-bottom: 0;
+	}
+
+	.item {
+		align-self: center;
+		width: 80%;
+		margin-bottom: 100px;
+	}
+
+	.item img {
+		top: -80px;
+	}
+
+	.wish {
+		min-height: 850px;
+	}
+	
+	.download {
+		padding-bottom: 50px;
+	}
+
+	.download .wrapper {
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
+	.dwnld-itm img {
+		right: -70px;
+	}
+
+	.imgs img {
+		width: 200px;
+		height: 65px;
+	}
+
+	.clients {
+		margin-bottom: 20px;
+	}
+
+	.footer {
+		align-items: center;
+		text-align: center;
+	}
+
+	.links {
+		width: 50%;
+		align-self: center;
+	}
+}
