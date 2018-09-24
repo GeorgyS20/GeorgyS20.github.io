@@ -23,6 +23,22 @@
 }
 
 @media screen and (max-width: 600px) {
+	.btn {
+		border: 3px solid black;
+		border-radius: 5px;
+		padding: 5px 20px;
+		background-color: #ffc61a;
+		color: #000;
+		font-family:"Bebas_N";	
+		font-size: 22px;
+		border-width: 0 0 2px 0;
+	}
+	
+	.btn:hover {
+		background-color: #000;
+		color: #fff;
+	}
+	
 	.header {
 		max-height: 410px;
 	}
@@ -108,10 +124,46 @@
 		align-self: center;
 	}
 }
+@media screen and (max-width: 420px) {
+	.btn {
+		border: 3px solid black;
+		border-radius: 5px;
+		padding: 5px 20px;
+		background-color: #ffc61a;
+		color: #000;
+		font-family:"Bebas_N";	
+		font-size: 22px;
+		border-width: 0 0 2px 0;
+	}
+	
+	.btn:hover {
+		background-color: #000;
+		color: #fff;
+	}
+	.main-nav li {
+		font-size: 13px;
+	}
+
+	.nmbr h2:last-of-type {
+		color: #000;
+	}
+}
 
 @media screen and (max-width: 375px) {
-	body {
-		overflow: hidden;
+	.btn {
+		border: 3px solid black;
+		border-radius: 5px;
+		padding: 5px 20px;
+		background-color: #ffc61a;
+		color: #000;
+		font-family:"Bebas_N";	
+		font-size: 22px;
+		border-width: 0 0 2px 0;
+	}
+	
+	.btn:hover {
+		background-color: #000;
+		color: #fff;
 	}
 
 	.header {
@@ -119,7 +171,7 @@
 	}
 
 	.main-nav li {
-		font-size: 9px;
+		font-size: 12px;
 	}
 
 	.promo h1 {
@@ -131,7 +183,7 @@
 	}
 
 	.offer {
-		min-height: 800px;
+		min-height: 850px;
 	}
 	
 	.wish {
@@ -146,5 +198,9 @@
 	.imgs img {
 		width: 150px;
 		height: 50px;
+	}
+
+	.nmbr h2:last-of-type {
+		color: #000;
 	}
 }
