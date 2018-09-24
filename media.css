@@ -106,7 +106,7 @@
 		right: 0;
 		width: 350px;
 	}
-	
+
 	.imgs img {
 		width: 200px;
 		height: 65px;
@@ -179,7 +179,7 @@
 	}
 
 	.main-nav li {
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	.promo h1 {
@@ -191,7 +191,7 @@
 	}
 
 	.offer {
-		min-height: 850px;
+		min-height: 1000px;
 	}
 	
 	.wish {
@@ -210,5 +210,9 @@
 
 	.nmbr h2:last-of-type {
 		color: #000;
+	}
+
+	.footer-item {
+		flex-basis: 100%;
 	}
 }
