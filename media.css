@@ -22,7 +22,7 @@
 	}
 }
 
-@media Screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.header {
 		max-height: 410px;
 	}
@@ -106,5 +106,44 @@
 	.links {
 		width: 50%;
 		align-self: center;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	body {
+		overflow: hidden;
+	}
+
+	.header {
+		height: 320px;
+	}
+
+	.main-nav li {
+		font-size: 9px;
+	}
+
+	.promo h1 {
+		font-size: 30px;
+	}
+
+	.car {
+		width: 300px;
+	}
+
+	.offer {
+		min-height: 800px;
+	}
+	
+	.wish {
+		min-height: 950px;
+	}
+
+	.dwnld-itm img {
+		right: -0px;
+	}
+
+	.imgs img {
+		width: 150px;
+		height: 50px;
 	}
 }
