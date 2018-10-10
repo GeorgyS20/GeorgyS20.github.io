@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("callBack").submit(function() { //Change
+	$("form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: 'sndmail/modx-mail.php', //Change
+			url: 'sndmail/mail.php', //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
+			alert("Спасибо!");
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
