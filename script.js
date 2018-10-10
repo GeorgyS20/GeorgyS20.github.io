@@ -5,7 +5,7 @@ $(document).ready(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: '', //Change
+			url: 'sndmail/modx-mail.php', //Change
 			data: th.serialize()
 		}).done(function() {
 			alert("Thank you!");
