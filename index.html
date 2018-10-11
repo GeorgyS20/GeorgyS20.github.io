@@ -106,22 +106,16 @@
 		<div class="hdr"><h2>Обратная связь</h2></div>
 		<div class="callBackForm">
 			<h3>Оставьте свои данные и мы вам перезвоним!</h3>
-			<form id="callBack">
-
-				<input type="hidden" name="project_name" value="magic store">
-				<input type="hidden" name="admin_email" value="melnikov.wp@yandex.ru">
-				<input type="hidden" name="form_subject" value="Form Subject">
-
-				<input type="text" name="name" placeholder="Имя" required><br>
-				<input type="text" name="phone" placeholder="Телефон" required><br>
-				<button>Отправить</button>
+			<form action="sndmail/mail.php" method="POST">
+				<input type="text" name="user_name" placeholder="Имя" required><br>
+				<input type="text" name="user_phone" placeholder="Телефон" required><br>
+				<button type="submit" >Отправить</button>
 			</form>
 		</div>
 	</div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/fotorama.js"></script>
-<script src="sndmail/script.js"></script>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
