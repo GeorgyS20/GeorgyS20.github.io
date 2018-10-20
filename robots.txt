@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /*.css
+Allow: /*.js
+Disallow: /?city_select=
+Disallow: /?p=*
+Disallow: *utm*
+Disallow: *clid=*
+Disallow: *from=*
+Disallow: *openstat*
+Sitemap: https://sektaschool.ru/sitemap.xml
+
+User-agent: Yandex
+Allow: /*.css
+Allow: /*.js
+Disallow: /?city_select=
+Disallow: /?p=*
+Disallow: *utm*
+Disallow: *clid=*
+Disallow: *from=*
+Disallow: *openstat*
+Host: sektaschool.ru
+
+User-agent: Googlebot
+Allow: /*.css
+Allow: /*.js
+Disallow: /?city_select=
+Disallow: /?p=*
+Disallow: *utm*
+Disallow: *clid=*
+Disallow: *from=*
+Disallow: *openstat*
