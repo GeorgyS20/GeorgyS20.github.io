@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>GreenWood - cамое уютное место в мире</title>
+	<meta name="author" content="">
+	<meta name="description" content="У нас вы можете получить массу удовольствия! Самые крепкие и вкусные табаки только у нас!">
+	<meta name="keywords"  content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			/*
+			* Plugin intialization
+			*/
+	    	$('#pagepiling').pagepiling({
+	    		menu: '#menu',
+	    		anchors: ['page1', 'page2', 'page3', 'page4'],
+			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+			   	},
+			    afterRender: function(){
+			    	$('#pp-nav').addClass('custom');
+			    },
+			    afterLoad: function(anchorLink, index){
+			    	if(index>1){
+			    		$('#pp-nav').removeClass('custom');
+			    	}else{
+			    		$('#pp-nav').addClass('custom');
+			    	}
+			    }
+			});
+
+
+			/*
+		    * Internal use of the demo website
+		    */
+		 //    $('#showExamples').click(function(e){
+			// 	e.stopPropagation();
+			// 	e.preventDefault();
+			// 	$('#examplesList').toggle();
+			// });
+
+			// $('html').click(function(){
+			// 	$('#examplesList').hide();
+			// });
+	    });
+    </script>
+    <script src="js/jquery.vide.min.js"></script>
+</head>
+<body>
+	<div class="main_menu">
+		<ul id="menu">
+			<li data-menuanchor="page1" class="active"><a href="#page1">Главная</a></li>
+			<li data-menuanchor="page2"><a href="#page2">О нас</a></li>
+			<li data-menuanchor="page3"><a href="#page3">Интерьер</a></li>
+			<li data-menuanchor="page4"><a href="#page4">Контакты</a></li>
+		</ul>
+		<div class="number">
+			<a href="tel:+78342300603">+7 (8342) 30-06-03</a>
+		</div>
+	</div>
+
+
+	<div id="pagepiling">
+	    <div class="section" id="section1" data-vide-bg="video/bg-header">
+	    	<div class="wrapper mtnpx">
+	    		<div class="row">
+	    			<h1>GREENWOOD</h1>
+	    		</div>
+	    		<div class="row">
+	    		<p>Мы ценим индивидуальный вкус каждого гостя</p>
+	    		</div>
+	    		<div class="row">
+	    			<div class="soc">
+	    				<a href="https://www.instagram.com/greenwood_saransk/"><img src="img/instagram-logo.svg" alt=""></a>
+	    				<a href="https://vk.com/greenwood_saransk"><img src="img/vk_social.svg" alt=""></a>
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<a href="tel:+78342300603" class="btn">забронировать столик</a>
+	    		</div>
+	    	</div>
+		</div>
+	    <div class="section" id="section2">
+	    	<div class="wrapper">
+	    		<div class="row">
+	    			<h1>О нас</h1>
+	    		</div>
+	    		<div class="row">
+	    			<h3 class="subtitle">Частичка нашего мира, как видим его мы?</h3>
+	    		</div>
+	    		<div class="row">
+	    			<ul class="features">
+	    				<li><img src="img/like.svg" alt="">Мы попытались отразить в дизайне то, что вас расслабит и создаст атмосферу уюта и спокойствия.</li>
+	    				<li><img src="img/hookah.svg" alt="">Постоянное обновление кальянной карты, бесплатные дегустации новинок кальянной индустрии.</li>
+	    				<li><img src="img/cup.svg" alt="">Разные сорта чая, вкусный молотый кофе, фирменный лимонады и соки.</li>
+	    				<li><img src="img/tv.svg" alt="">Проектор и GAME зона с PS4</li>
+	    			</ul>
+	    		</div>
+	    		<div class="row">
+	    			<h3 class="subtitle">Как выглядим мы?</h3>
+	    		</div>
+	    		<div class="row">
+	    			<ul class="features2">
+	    				<li><div class="person"></div><h3 class="subtitle">Мастер кальянщик</h3><p>Стас Лаптев</p></li>
+	    				<li><div class="person"></div><h3 class="subtitle">Руководитель</h3><p>Максим Гончарук</p></li>
+	    				<li><div class="person"></div><h3 class="subtitle">Мастер кальянщик</h3><p>Сергей Лыков</p></li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="section" id="section3">
+	    </div>
+	    <div class="section" id="section4">
+	    </div>
+	</div>
+
+</body>
+</html>
