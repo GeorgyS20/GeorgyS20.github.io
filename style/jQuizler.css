@@ -46,7 +46,7 @@
 
     .main-quiz-holder .slide-container {
         margin: 0px auto;
-        width: 450px;
+        width: calc(100% - 40px);
     }
 
     .main-quiz-holder .question {
@@ -89,4 +89,30 @@
 
     .progress {
         display: none;
+    }
+
+    .soc {
+        background-color: #25D366;
+        width: calc(100% - 40px);
+        padding: 15px 20px;
+        display: block;
+        margin-top: 20px;
+    }
+
+     button.btn-large {
+        font-size: 20px;
+        text-transform: uppercase;
+        background-color: #002980;
+        padding: 20px;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+     }
+
+    button.btn-success
+    {
+        width: 100%;
+        display: block;
+        text-transform: uppercase;
+        font-family: "Oswald";
     }

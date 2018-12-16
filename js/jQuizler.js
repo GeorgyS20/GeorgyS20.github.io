@@ -181,7 +181,7 @@
                         });
 
                         resultHTML += "<div class=\"left\"><h2>Поздравляем вас</h2><h3>Вы выиграли купон на 1500 рублей!</h3><p>Как забрать купон:</p><p>1. Поделитесь с 30 друзьями/группами в WhatsApp.</p><p>2. Жмите на \"Забрать купон\".</p><p>3. Вы получите купон в течение 5-10 минут!</p></div>";
-
+                        resultHTML += "<a href=\"whatsapp://send?text=ПОЛУЧИ КУПОН НА 1500 рублей ОТ ЛЕНТЫ! www.ssilka.ru\" data-action=\"share/whatsapp/share\" class=\"soc\">Поделиться WhatsApp</a>"
                         div.animate({
                             opacity : '0'
                         }, 500, function(e){
